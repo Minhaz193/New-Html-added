@@ -1,0 +1,214 @@
+/* root starts*/
+
+:root{
+    --brandcolor:#e84545;
+    --brandoverlay:rgb(232, 69, 69,.9);
+    --bgovrlay:rgb(43, 46, 74,.9);
+    --colortext:#ffffff;
+    --columcolorh:#2d3033;
+    --columcolorp:#6c7279;
+    --transition:all linear .2s;
+}
+
+/* root end */
+/* color starts */
+.brand-color{
+    color:#e84545;
+}
+.col-color{
+    color:#6c7279;
+}
+
+.h-color{
+   color: #2d3033;
+}
+
+.text-white{
+    color:#ffffff; 
+}
+.end-col{
+    color: #808080;
+}
+
+.end-col2{
+    color: #b3b3bc;
+}
+
+.last-color{
+    color: #afb0bc;
+}
+.fn-color{
+    color: #808080;
+}
+/* color ends */
+/* text starts */
+@font-face{
+    font-family:'minhaz';
+    src:url(../opensans/OpenSans-Regular.ttf);
+}
+
+@font-face{
+    font-family:'minhaz1';
+    src:url(../opensans/OpenSans-ExtraBold.ttf);
+}
+
+.ttu{
+    text-transform: uppercase;
+}
+
+.ttc{
+    text-transform: capitalize;
+}
+
+.text-align{
+    text-align: center;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-13{
+    font-size: 13px;
+}
+
+.fs-22{
+    font-size: 22px;
+}
+
+.fs-28{
+    font-size: 28px;
+}
+
+.fs-65{
+    font-size: 65px;
+}
+
+.li-100{
+    line-height: 100px;
+}
+/* text ends */
+/* button starts */
+
+.cta-btn{
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: minhaz;
+    font-size: 14px;
+    background-color: var(--brandcolor);
+    line-height: 46px;
+    color: #ffffff;
+}
+
+/* button ends */
+
+/* position */
+.pos-rel{
+    position: relative;
+}
+.pos-ab{
+    position: absolute;
+}
+.top-0{
+    top: 0;
+}
+
+.left-0{
+    left: 0;
+}
+/* position ends */
+/* general starts */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    vertical-align: middle;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.w-100{
+    width: 100%;
+}
+
+.h-100{
+    height: 100%;
+}
+
+.brand-overlay{
+    background: var(--brandoverlay);
+}
+
+.transition{
+    transition:all linear .2s;
+}
+
+.padding-top{
+    padding-top: 100px;
+}
+
+.padding-bottom{
+    padding-bottom: 100px;
+}
+
+.margin-top-100{
+    margin-top: 100px;
+}
+
+.margin-bottom-100{
+    margin-bottom: 100px;
+}
+/* general ends */
+
+/* flex starts */
+.dis-flex{
+    display: flex;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: end;
+}
+
+.j-end{
+    justify-content: flex-end;
+}
+
+.align-iteams{
+    align-content: center;
+}
+
+.align-center{
+    align-content: space-between;
+}
+/* flex ends */
+/* overlay starts */
+
+/* overlay ends */
+
+
+/*=============
+ common css ends 
+ =============*/
